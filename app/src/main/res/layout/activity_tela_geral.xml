@@ -21,10 +21,12 @@
 
         <ImageView
             android:id="@+id/imageView3"
+            android:layout_marginTop="15dp"
             android:layout_width="100dp"
-            android:layout_height="wrap_content"
+            android:layout_height="100dp"
             android:layout_marginLeft="30dp"
-            tools:srcCompat="@tools:sample/avatars" />
+            android:src="@drawable/imgrobin"
+            />
 
         <TextView
             android:id="@+id/textView3"
@@ -79,7 +81,7 @@
         app:layout_constraintTop_toBottomOf="@+id/cardView3">
 
         <ImageView
-            android:id="@+id/imageView4"
+            android:id="@+id/imgConsulta"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_gravity="center_horizontal"
@@ -87,7 +89,7 @@
             app:srcCompat="@drawable/baseline_local_hospital" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/textConsulta"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -110,7 +112,7 @@
         app:layout_constraintTop_toBottomOf="@+id/cardView4">
 
         <ImageView
-            android:id="@+id/imageView5"
+            android:id="@+id/imgDiag"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_gravity="center_horizontal"
@@ -118,7 +120,7 @@
             app:srcCompat="@drawable/baseline_diag" />
 
         <TextView
-            android:id="@+id/textView7"
+            android:id="@+id/textDiag"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -130,7 +132,7 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="110dp"
         android:layout_marginTop="70dp"
         app:cardBackgroundColor="#03A9F4"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -138,7 +140,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView5"
-        app:layout_constraintVertical_bias="1.0" >
+        app:layout_constraintVertical_bias="1.0">
 
         <TextView
             android:id="@+id/textView8"

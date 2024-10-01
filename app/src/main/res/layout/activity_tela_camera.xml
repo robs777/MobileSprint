@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <ImageView
-            android:id="@+id/imageView6"
+            android:id="@+id/imgIrInicio"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
@@ -89,7 +89,7 @@
         app:layout_constraintTop_toBottomOf="@+id/cardView6" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnIrAgenda"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
